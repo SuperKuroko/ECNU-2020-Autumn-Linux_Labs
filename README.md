@@ -16,5 +16,9 @@ Linux Operating System Labs Dept. of Computer Science, ECNU, Fall 2020
   + **2b [xv6 Scheduling](http://ybwu.org/ecnu-oslabs/projects/xv6/scheduling/docs/xv6_mlfq.html)** 
  
 + **Project3**
-  + **3a [Locks and Threads](http://ybwu.org/ecnu-oslabs/projects/malloc/docs/malloc.html)**  
-  + **3b [xv6 VM Layout](http://ybwu.org/ecnu-oslabs/projects/xv6/scheduling/docs/xv6_mlfq.html)**  
+  + **3a [Locks and Threads](http://ybwu.org/ecnu-oslabs/projects/lock_thread/docs/thread.html)**  
+  + **3b [xv6 VM Layout](http://ybwu.org/ecnu-oslabs/projects/xv6/vmlayout/docs/xv6_vmlayout.html)**  
+
++ **Project4**
+  + **4a [File Defragmentation](http://ybwu.org/ecnu-oslabs/projects/defragmentation/docs/defragmentation.html)**  
+  + **4b [xv6 Kernel Thread](http://ybwu.org/ecnu-oslabs/projects/xv6/thread/docs/xv6_thread.html)**  
