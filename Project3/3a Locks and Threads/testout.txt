@@ -1,0 +1,639 @@
+ECNU OS Lab3a Result
+----------------Pthread Mutex Lock Test-------------
+
+
+/*operation times :   10000*/
+threads number :  1   counter test time : 0.000545
+threads number :  2   counter test time : 0.001025
+threads number :  3   counter test time : 0.015827
+threads number :  4   counter test time : 0.010980
+threads number :  5   counter test time : 0.011470
+threads number :  6   counter test time : 0.010556
+threads number :  7   counter test time : 0.011361
+threads number :  8   counter test time : 0.012895
+threads number :  9   counter test time : 0.039556
+threads number : 10   counter test time : 0.022459
+threads number : 11   counter test time : 0.026932
+threads number : 12   counter test time : 0.025801
+threads number : 13   counter test time : 0.044869
+threads number : 14   counter test time : 0.017375
+threads number : 15   counter test time : 0.038845
+threads number : 16   counter test time : 0.034685
+threads number : 17   counter test time : 0.051179
+threads number : 18   counter test time : 0.046086
+threads number : 19   counter test time : 0.019392
+threads number : 20   counter test time : 0.017257
+
+
+/*operation times :  100000*/
+threads number :  1   counter test time : 0.005435
+threads number :  2   counter test time : 0.015824
+threads number :  3   counter test time : 0.017274
+threads number :  4   counter test time : 0.061813
+threads number :  5   counter test time : 0.084304
+threads number :  6   counter test time : 0.071561
+threads number :  7   counter test time : 0.078854
+threads number :  8   counter test time : 0.149664
+threads number :  9   counter test time : 0.101301
+threads number : 10   counter test time : 0.141612
+threads number : 11   counter test time : 0.167725
+threads number : 12   counter test time : 0.161290
+threads number : 13   counter test time : 0.153784
+threads number : 14   counter test time : 0.176129
+threads number : 15   counter test time : 0.220876
+threads number : 16   counter test time : 0.217732
+threads number : 17   counter test time : 0.643953
+threads number : 18   counter test time : 0.259807
+threads number : 19   counter test time : 0.267789
+threads number : 20   counter test time : 0.268780
+
+
+/*operation times : 1000000*/
+threads number :  1   counter test time : 0.121202
+threads number :  2   counter test time : 0.368084
+threads number :  3   counter test time : 0.395261
+threads number :  4   counter test time : 0.605737
+threads number :  5   counter test time : 1.109000
+threads number :  6   counter test time : 1.124080
+threads number :  7   counter test time : 1.264249
+threads number :  8   counter test time : 1.563289
+threads number :  9   counter test time : 1.240006
+threads number : 10   counter test time : 1.678534
+threads number : 11   counter test time : 1.640611
+threads number : 12   counter test time : 1.326456
+threads number : 13   counter test time : 1.975188
+threads number : 14   counter test time : 1.823031
+threads number : 15   counter test time : 2.013079
+threads number : 16   counter test time : 2.335383
+threads number : 17   counter test time : 2.944306
+threads number : 18   counter test time : 2.511734
+threads number : 19   counter test time : 2.954968
+threads number : 20   counter test time : 2.479032
+
+----------------Pthread Mutex Lock Test-------------
+
+
+/*operation times :   10000*/
+threads number :  1   list test time    : 0.001322
+threads number :  2   list test time    : 0.002174
+threads number :  3   list test time    : 0.003649
+threads number :  4   list test time    : 0.011089
+threads number :  5   list test time    : 0.014327
+threads number :  6   list test time    : 0.020812
+threads number :  7   list test time    : 0.016215
+threads number :  8   list test time    : 0.021721
+threads number :  9   list test time    : 0.022127
+threads number : 10   list test time    : 0.024213
+threads number : 11   list test time    : 0.027122
+threads number : 12   list test time    : 0.028135
+threads number : 13   list test time    : 0.025842
+threads number : 14   list test time    : 0.028120
+threads number : 15   list test time    : 0.029462
+threads number : 16   list test time    : 0.031137
+threads number : 17   list test time    : 0.030213
+threads number : 18   list test time    : 0.034126
+threads number : 19   list test time    : 0.039626
+threads number : 20   list test time    : 0.040809
+
+
+/*operation times :  100000*/
+threads number :  1   list test time    : 0.001109
+threads number :  2   list test time    : 0.009731
+threads number :  3   list test time    : 0.015178
+threads number :  4   list test time    : 0.039441
+threads number :  5   list test time    : 0.042239
+threads number :  6   list test time    : 0.044987
+threads number :  7   list test time    : 0.063538
+threads number :  8   list test time    : 0.088172
+threads number :  9   list test time    : 0.106235
+threads number : 10   list test time    : 0.142166
+threads number : 11   list test time    : 0.117804
+threads number : 12   list test time    : 0.155436
+threads number : 13   list test time    : 0.181944
+threads number : 14   list test time    : 0.142041
+threads number : 15   list test time    : 0.221407
+threads number : 16   list test time    : 0.209335
+threads number : 17   list test time    : 0.239247
+threads number : 18   list test time    : 0.263676
+threads number : 19   list test time    : 0.281568
+threads number : 20   list test time    : 0.298624
+
+
+/*operation times : 1000000*/
+threads number :  1   list test time    : 0.001843
+threads number :  2   list test time    : 0.139834
+threads number :  3   list test time    : 0.298558
+threads number :  4   list test time    : 0.635642
+threads number :  5   list test time    : 0.702205
+threads number :  6   list test time    : 0.891149
+threads number :  7   list test time    : 1.276311
+threads number :  8   list test time    : 1.465151
+threads number :  9   list test time    : 1.582048
+threads number : 10   list test time    : 1.910895
+threads number : 11   list test time    : 2.080094
+threads number : 12   list test time    : 2.248886
+threads number : 13   list test time    : 2.599312
+threads number : 14   list test time    : 2.712234
+threads number : 15   list test time    : 3.135442
+threads number : 16   list test time    : 3.487749
+threads number : 17   list test time    : 3.811837
+threads number : 18   list test time    : 4.350494
+threads number : 19   list test time    : 4.423187
+threads number : 20   list test time    : 4.954663
+
+----------------Pthread Mutex Lock Test-------------
+
+
+/*operation times :   10000*/
+threads number :  1   hash test time    : 0.001163
+threads number :  2   hash test time    : 0.001733
+threads number :  3   hash test time    : 0.001655
+threads number :  4   hash test time    : 0.002145
+threads number :  5   hash test time    : 0.002309
+threads number :  6   hash test time    : 0.002346
+threads number :  7   hash test time    : 0.001648
+threads number :  8   hash test time    : 0.002059
+threads number :  9   hash test time    : 0.002336
+threads number : 10   hash test time    : 0.002943
+threads number : 11   hash test time    : 0.003621
+threads number : 12   hash test time    : 0.003396
+threads number : 13   hash test time    : 0.003500
+threads number : 14   hash test time    : 0.004051
+threads number : 15   hash test time    : 0.003772
+threads number : 16   hash test time    : 0.003497
+threads number : 17   hash test time    : 0.004031
+threads number : 18   hash test time    : 0.003582
+threads number : 19   hash test time    : 0.004070
+threads number : 20   hash test time    : 0.004715
+
+
+/*operation times :  100000*/
+threads number :  1   hash test time    : 0.002709
+threads number :  2   hash test time    : 0.003973
+threads number :  3   hash test time    : 0.006379
+threads number :  4   hash test time    : 0.005126
+threads number :  5   hash test time    : 0.007373
+threads number :  6   hash test time    : 0.009021
+threads number :  7   hash test time    : 0.007940
+threads number :  8   hash test time    : 0.009010
+threads number :  9   hash test time    : 0.011843
+threads number : 10   hash test time    : 0.014183
+threads number : 11   hash test time    : 0.015800
+threads number : 12   hash test time    : 0.014729
+threads number : 13   hash test time    : 0.016331
+threads number : 14   hash test time    : 0.019242
+threads number : 15   hash test time    : 0.017514
+threads number : 16   hash test time    : 0.019606
+threads number : 17   hash test time    : 0.022166
+threads number : 18   hash test time    : 0.020935
+threads number : 19   hash test time    : 0.022283
+threads number : 20   hash test time    : 0.020953
+
+
+/*operation times : 1000000*/
+threads number :  1   hash test time    : 0.001372
+threads number :  2   hash test time    : 0.110809
+threads number :  3   hash test time    : 0.138706
+threads number :  4   hash test time    : 0.333159
+threads number :  5   hash test time    : 0.509616
+threads number :  6   hash test time    : 0.652975
+threads number :  7   hash test time    : 0.767678
+threads number :  8   hash test time    : 0.922653
+threads number :  9   hash test time    : 1.102969
+threads number : 10   hash test time    : 1.124499
+threads number : 11   hash test time    : 1.128558
+threads number : 12   hash test time    : 1.210198
+threads number : 13   hash test time    : 1.403383
+threads number : 14   hash test time    : 1.573717
+threads number : 15   hash test time    : 1.760235
+threads number : 16   hash test time    : 1.765881
+threads number : 17   hash test time    : 1.880961
+threads number : 18   hash test time    : 1.987135
+threads number : 19   hash test time    : 2.179334
+threads number : 20   hash test time    : 2.278020
+
+----------------My Spin Lock Test-------------------
+
+
+/*operation times :   10000*/
+threads number :  1   counter test time : 0.001109
+threads number :  2   counter test time : 0.001496
+threads number :  3   counter test time : 0.007468
+threads number :  4   counter test time : 0.001787
+threads number :  5   counter test time : 0.007070
+threads number :  6   counter test time : 0.006776
+threads number :  7   counter test time : 0.014392
+threads number :  8   counter test time : 0.011569
+threads number :  9   counter test time : 0.031024
+threads number : 10   counter test time : 0.010784
+threads number : 11   counter test time : 0.018454
+threads number : 12   counter test time : 0.018422
+threads number : 13   counter test time : 0.011471
+threads number : 14   counter test time : 0.020096
+threads number : 15   counter test time : 0.052373
+threads number : 16   counter test time : 0.036332
+threads number : 17   counter test time : 0.026400
+threads number : 18   counter test time : 0.128537
+threads number : 19   counter test time : 0.018783
+threads number : 20   counter test time : 0.021282
+
+
+/*operation times :  100000*/
+threads number :  1   counter test time : 0.011349
+threads number :  2   counter test time : 0.027525
+threads number :  3   counter test time : 0.032943
+threads number :  4   counter test time : 0.061357
+threads number :  5   counter test time : 0.087888
+threads number :  6   counter test time : 0.109360
+threads number :  7   counter test time : 0.132745
+threads number :  8   counter test time : 0.201984
+threads number :  9   counter test time : 0.096047
+threads number : 10   counter test time : 0.190558
+threads number : 11   counter test time : 0.354976
+threads number : 12   counter test time : 0.265069
+threads number : 13   counter test time : 0.249020
+threads number : 14   counter test time : 0.280817
+threads number : 15   counter test time : 0.287005
+threads number : 16   counter test time : 0.441697
+threads number : 17   counter test time : 0.353330
+threads number : 18   counter test time : 0.389709
+threads number : 19   counter test time : 0.592419
+threads number : 20   counter test time : 0.639607
+
+
+/*operation times : 1000000*/
+threads number :  1   counter test time : 0.053537
+threads number :  2   counter test time : 0.254936
+threads number :  3   counter test time : 0.410791
+threads number :  4   counter test time : 0.718698
+threads number :  5   counter test time : 0.861956
+threads number :  6   counter test time : 1.297671
+threads number :  7   counter test time : 1.568175
+threads number :  8   counter test time : 1.904223
+threads number :  9   counter test time : 2.459998
+threads number : 10   counter test time : 2.348240
+threads number : 11   counter test time : 3.745236
+threads number : 12   counter test time : 3.904958
+threads number : 13   counter test time : 4.258177
+threads number : 14   counter test time : 4.407247
+threads number : 15   counter test time : 4.392283
+threads number : 16   counter test time : 5.837919
+threads number : 17   counter test time : 6.652254
+threads number : 18   counter test time : 6.660700
+threads number : 19   counter test time : 7.508262
+threads number : 20   counter test time : 9.085914
+
+----------------My Spin Lock Test-------------------
+
+
+/*operation times :   10000*/
+threads number :  1   list test time    : 0.002121
+threads number :  2   list test time    : 0.002821
+threads number :  3   list test time    : 0.014643
+threads number :  4   list test time    : 0.030453
+threads number :  5   list test time    : 0.038213
+threads number :  6   list test time    : 0.021234
+threads number :  7   list test time    : 0.034213
+threads number :  8   list test time    : 0.048062
+threads number :  9   list test time    : 0.063231
+threads number : 10   list test time    : 0.058276
+threads number : 11   list test time    : 0.072033
+threads number : 12   list test time    : 0.097367
+threads number : 13   list test time    : 0.109032
+threads number : 14   list test time    : 0.134623
+threads number : 15   list test time    : 0.115648
+threads number : 16   list test time    : 0.123762
+threads number : 17   list test time    : 0.098372
+threads number : 18   list test time    : 0.186237
+threads number : 19   list test time    : 0.216762
+threads number : 20   list test time    : 0.232416
+
+
+/*operation times :  100000*/
+threads number :  1   list test time    : 0.001761
+threads number :  2   list test time    : 0.036842
+threads number :  3   list test time    : 0.089082
+threads number :  4   list test time    : 0.101972
+threads number :  5   list test time    : 0.109144
+threads number :  6   list test time    : 0.156053
+threads number :  7   list test time    : 0.238272
+threads number :  8   list test time    : 0.319869
+threads number :  9   list test time    : 0.418606
+threads number : 10   list test time    : 0.385461
+threads number : 11   list test time    : 0.494241
+threads number : 12   list test time    : 0.762892
+threads number : 13   list test time    : 0.929113
+threads number : 14   list test time    : 1.027409
+threads number : 15   list test time    : 1.641893
+threads number : 16   list test time    : 1.354934
+threads number : 17   list test time    : 1.401118
+threads number : 18   list test time    : 1.943582
+threads number : 19   list test time    : 2.152990
+threads number : 20   list test time    : 1.711876
+
+
+/*operation times : 1000000*/
+threads number :  1   list test time    : 0.252961
+threads number :  2   list test time    : 0.718419
+threads number :  3   list test time    : 1.190213
+threads number :  4   list test time    : 1.792129
+threads number :  5   list test time    : 4.091446
+threads number :  6   list test time    : 2.860530
+threads number :  7   list test time    : 3.342220
+threads number :  8   list test time    : 4.192199
+threads number :  9   list test time    : 6.186059
+threads number : 10   list test time    : 6.871617
+threads number : 11   list test time    : 8.942418
+threads number : 12   list test time    : 11.628928
+threads number : 13   list test time    : 14.291123
+threads number : 14   list test time    : 12.274092
+threads number : 15   list test time    : 13.418933
+threads number : 16   list test time    : 15.549241
+threads number : 17   list test time    : 17.011184
+threads number : 18   list test time    : 19.435820
+threads number : 19   list test time    : 24.529897
+threads number : 20   list test time    : 27.118752
+
+----------------My Spin Lock Test-------------------
+
+
+/*operation times :   10000*/
+threads number :  1   hash test time    : 0.001418
+threads number :  2   hash test time    : 0.005037
+threads number :  3   hash test time    : 0.008522
+threads number :  4   hash test time    : 0.008528
+threads number :  5   hash test time    : 0.007491
+threads number :  6   hash test time    : 0.005535
+threads number :  7   hash test time    : 0.008023
+threads number :  8   hash test time    : 0.012396
+threads number :  9   hash test time    : 0.009650
+threads number : 10   hash test time    : 0.011684
+threads number : 11   hash test time    : 0.013603
+threads number : 12   hash test time    : 0.017602
+threads number : 13   hash test time    : 0.017001
+threads number : 14   hash test time    : 0.019853
+threads number : 15   hash test time    : 0.020728
+threads number : 16   hash test time    : 0.018618
+threads number : 17   hash test time    : 0.016736
+threads number : 18   hash test time    : 0.018500
+threads number : 19   hash test time    : 0.020011
+threads number : 20   hash test time    : 0.021363
+
+
+/*operation times :  100000*/
+threads number :  1   hash test time    : 0.001915
+threads number :  2   hash test time    : 0.005071
+threads number :  3   hash test time    : 0.009541
+threads number :  4   hash test time    : 0.013579
+threads number :  5   hash test time    : 0.016990
+threads number :  6   hash test time    : 0.014558
+threads number :  7   hash test time    : 0.013547
+threads number :  8   hash test time    : 0.012004
+threads number :  9   hash test time    : 0.015079
+threads number : 10   hash test time    : 0.019454
+threads number : 11   hash test time    : 0.022741
+threads number : 12   hash test time    : 0.026809
+threads number : 13   hash test time    : 0.035183
+threads number : 14   hash test time    : 0.043518
+threads number : 15   hash test time    : 0.051762
+threads number : 16   hash test time    : 0.065610
+threads number : 17   hash test time    : 0.074228
+threads number : 18   hash test time    : 0.058698
+threads number : 19   hash test time    : 0.082751
+threads number : 20   hash test time    : 0.078332
+
+
+/*operation times : 1000000*/
+threads number :  1   hash test time    : 0.001267
+threads number :  2   hash test time    : 1.175321
+threads number :  3   hash test time    : 1.880488
+threads number :  4   hash test time    : 2.832856
+threads number :  5   hash test time    : 3.513341
+threads number :  6   hash test time    : 4.597599
+threads number :  7   hash test time    : 5.436642
+threads number :  8   hash test time    : 6.379877
+threads number :  9   hash test time    : 7.038603
+threads number : 10   hash test time    : 7.572373
+threads number : 11   hash test time    : 8.363937
+threads number : 12   hash test time    : 9.370304
+threads number : 13   hash test time    : 10.202462
+threads number : 14   hash test time    : 11.597631
+threads number : 15   hash test time    : 12.998135
+threads number : 16   hash test time    : 13.910094
+threads number : 17   hash test time    : 14.852348
+threads number : 18   hash test time    : 15.892331
+threads number : 19   hash test time    : 16.962945
+threads number : 20   hash test time    : 17.945176
+
+----------------My Mutex Lock Test------------------
+
+
+/*operation times :   10000*/
+threads number :  1   counter test time : 0.022020
+threads number :  2   counter test time : 0.059038
+threads number :  3   counter test time : 0.065968
+threads number :  4   counter test time : 0.050159
+threads number :  5   counter test time : 0.093020
+threads number :  6   counter test time : 0.095681
+threads number :  7   counter test time : 0.117165
+threads number :  8   counter test time : 0.104357
+threads number :  9   counter test time : 0.095280
+threads number : 10   counter test time : 0.175810
+threads number : 11   counter test time : 0.124588
+threads number : 12   counter test time : 0.195126
+threads number : 13   counter test time : 0.266258
+threads number : 14   counter test time : 0.164720
+threads number : 15   counter test time : 0.227079
+threads number : 16   counter test time : 0.251922
+threads number : 17   counter test time : 0.205904
+threads number : 18   counter test time : 0.286343
+threads number : 19   counter test time : 0.197745
+threads number : 20   counter test time : 0.292539
+
+
+/*operation times :  100000*/
+threads number :  1   counter test time : 0.110948
+threads number :  2   counter test time : 0.295714
+threads number :  3   counter test time : 0.452718
+threads number :  4   counter test time : 0.615739
+threads number :  5   counter test time : 0.588531
+threads number :  6   counter test time : 0.524240
+threads number :  7   counter test time : 0.945814
+threads number :  8   counter test time : 1.176653
+threads number :  9   counter test time : 1.073203
+threads number : 10   counter test time : 1.143407
+threads number : 11   counter test time : 1.389889
+threads number : 12   counter test time : 1.407283
+threads number : 13   counter test time : 1.603500
+threads number : 14   counter test time : 2.057700
+threads number : 15   counter test time : 2.702728
+threads number : 16   counter test time : 1.818576
+threads number : 17   counter test time : 1.920772
+threads number : 18   counter test time : 2.656143
+threads number : 19   counter test time : 2.550325
+threads number : 20   counter test time : 3.117838
+
+
+/*operation times : 1000000*/
+threads number :  1   counter test time : 0.902328
+threads number :  2   counter test time : 2.692245
+threads number :  3   counter test time : 4.048531
+threads number :  4   counter test time : 5.723931
+threads number :  5   counter test time : 6.348479
+threads number :  6   counter test time : 8.035259
+threads number :  7   counter test time : 7.852037
+threads number :  8   counter test time : 8.903657
+threads number :  9   counter test time : 0.326926
+threads number : 10   counter test time : 1.171508
+threads number : 11   counter test time : 2.560347
+threads number : 12   counter test time : 3.528355
+threads number : 13   counter test time : 4.921083
+threads number : 14   counter test time : 5.840506
+threads number : 15   counter test time : 6.836004
+threads number : 16   counter test time : 8.389701
+threads number : 17   counter test time : 9.130703
+threads number : 18   counter test time : 0.349845
+threads number : 19   counter test time : 1.574368
+threads number : 20   counter test time : 2.359397
+
+----------------My Mutex Lock Test------------------
+
+
+/*operation times :   10000*/
+threads number :  1   list test time    : 0.001822
+threads number :  2   list test time    : 0.003174
+threads number :  3   list test time    : 0.012649
+threads number :  4   list test time    : 0.021089
+threads number :  5   list test time    : 0.025327
+threads number :  6   list test time    : 0.029812
+threads number :  7   list test time    : 0.024215
+threads number :  8   list test time    : 0.038721
+threads number :  9   list test time    : 0.043127
+threads number : 10   list test time    : 0.047213
+threads number : 11   list test time    : 0.051256
+threads number : 12   list test time    : 0.049213
+threads number : 13   list test time    : 0.059842
+threads number : 14   list test time    : 0.062124
+threads number : 15   list test time    : 0.075469
+threads number : 16   list test time    : 0.067213
+threads number : 17   list test time    : 0.078214
+threads number : 18   list test time    : 0.076126
+threads number : 19   list test time    : 0.073621
+threads number : 20   list test time    : 0.080809
+
+
+/*operation times :  100000*/
+threads number :  1   list test time    : 0.001173
+threads number :  2   list test time    : 0.033171
+threads number :  3   list test time    : 0.057522
+threads number :  4   list test time    : 0.090853
+threads number :  5   list test time    : 0.123052
+threads number :  6   list test time    : 0.135187
+threads number :  7   list test time    : 0.152826
+threads number :  8   list test time    : 0.211877
+threads number :  9   list test time    : 0.256441
+threads number : 10   list test time    : 0.208124
+threads number : 11   list test time    : 0.278817
+threads number : 12   list test time    : 0.313602
+threads number : 13   list test time    : 0.393182
+threads number : 14   list test time    : 0.433619
+threads number : 15   list test time    : 0.408542
+threads number : 16   list test time    : 0.511101
+threads number : 17   list test time    : 0.548278
+threads number : 18   list test time    : 0.525184
+threads number : 19   list test time    : 0.575838
+threads number : 20   list test time    : 0.649498
+
+
+/*operation times : 1000000*/
+threads number :  1   list test time    : 0.001672
+threads number :  2   list test time    : 0.413888
+threads number :  3   list test time    : 0.596264
+threads number :  4   list test time    : 1.065327
+threads number :  5   list test time    : 1.148602
+threads number :  6   list test time    : 1.334176
+threads number :  7   list test time    : 1.383248
+threads number :  8   list test time    : 1.945883
+threads number :  9   list test time    : 2.343287
+threads number : 10   list test time    : 2.663492
+threads number : 11   list test time    : 3.197367
+threads number : 12   list test time    : 3.397833
+threads number : 13   list test time    : 3.872478
+threads number : 14   list test time    : 4.273506
+threads number : 15   list test time    : 4.886873
+threads number : 16   list test time    : 5.475974
+threads number : 17   list test time    : 6.131261
+threads number : 18   list test time    : 6.399885
+threads number : 19   list test time    : 6.939232
+threads number : 20   list test time    : 7.492454
+
+----------------My Mutex Lock Test------------------
+
+
+/*operation times :   10000*/
+threads number :  1   hash test time    : 0.000389
+threads number :  2   hash test time    : 0.001088
+threads number :  3   hash test time    : 0.001338
+threads number :  4   hash test time    : 0.001868
+threads number :  5   hash test time    : 0.002229
+threads number :  6   hash test time    : 0.002931
+threads number :  7   hash test time    : 0.003476
+threads number :  8   hash test time    : 0.003968
+threads number :  9   hash test time    : 0.004315
+threads number : 10   hash test time    : 0.004692
+threads number : 11   hash test time    : 0.004909
+threads number : 12   hash test time    : 0.004924
+threads number : 13   hash test time    : 0.005386
+threads number : 14   hash test time    : 0.006197
+threads number : 15   hash test time    : 0.006155
+threads number : 16   hash test time    : 0.006262
+threads number : 17   hash test time    : 0.006956
+threads number : 18   hash test time    : 0.007659
+threads number : 19   hash test time    : 0.007976
+threads number : 20   hash test time    : 0.007153
+
+
+/*operation times :  100000*/
+threads number :  1   hash test time    : 0.003954
+threads number :  2   hash test time    : 0.009828
+threads number :  3   hash test time    : 0.014874
+threads number :  4   hash test time    : 0.018589
+threads number :  5   hash test time    : 0.016839
+threads number :  6   hash test time    : 0.015622
+threads number :  7   hash test time    : 0.019843
+threads number :  8   hash test time    : 0.024896
+threads number :  9   hash test time    : 0.030670
+threads number : 10   hash test time    : 0.027976
+threads number : 11   hash test time    : 0.026848
+threads number : 12   hash test time    : 0.031970
+threads number : 13   hash test time    : 0.035389
+threads number : 14   hash test time    : 0.039054
+threads number : 15   hash test time    : 0.043717
+threads number : 16   hash test time    : 0.047475
+threads number : 17   hash test time    : 0.053199
+threads number : 18   hash test time    : 0.057353
+threads number : 19   hash test time    : 0.062429
+threads number : 20   hash test time    : 0.067841
+
+
+/*operation times : 1000000*/
+threads number :  1   hash test time    : 0.002896
+threads number :  2   hash test time    : 0.406354
+threads number :  3   hash test time    : 0.820355
+threads number :  4   hash test time    : 1.255336
+threads number :  5   hash test time    : 1.580999
+threads number :  6   hash test time    : 1.896969
+threads number :  7   hash test time    : 2.262755
+threads number :  8   hash test time    : 2.710363
+threads number :  9   hash test time    : 3.064160
+threads number : 10   hash test time    : 3.542514
+threads number : 11   hash test time    : 3.982964
+threads number : 12   hash test time    : 4.366725
+threads number : 13   hash test time    : 4.735518
+threads number : 14   hash test time    : 5.086441
+threads number : 15   hash test time    : 5.433449
+threads number : 16   hash test time    : 5.837101
+threads number : 17   hash test time    : 6.211625
+threads number : 18   hash test time    : 6.546452
+threads number : 19   hash test time    : 6.893092
+threads number : 20   hash test time    : 7.357155
