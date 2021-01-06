@@ -1,0 +1,52 @@
+1.函数提供了两种调用方式
+第一种为实验要求的 ./defrag datafile, 程序会输出datafile-defrag文件
+第二种为额外附加的 ./defrag datafile display, 若使用这种命令,程序会额外输出datafile在碎片整理前和碎片整理后的信息。
+格式如下:
+
+<superblock information>
+……
+<superblock information>
+
+<inode infomation>
+……
+<inode infomation>
+
+
+2.如果您调用了 ./defrag datafile display，您也许会发现每个inode的块序列并不是完全连续的，而是分成了两个连续的序列。
+这是因为在文件系统中，有如下结构
+------------------------------------------------------
+|  Boot   | Super Block | inode | data block | swap |
+------------------------------------------------------
+我们的目的是重排data block，但实际上data block中既包含文件本身，也包含 inode 的多级索引块,而碎片整理的目的是让文件连续，因此如果直接搜索出全部的块的索引，然后从data block的开始重新放置，会出现文件与索引交错的现象，即若有序列{1,2,3,4,5……},很可能1,2为文件本身,3是inode的2级目录,4是文件,5是inode的3级目录。我们希望文件保持连续性，所以假设文件一共占用了k个块，inode的目录占用了m个块,那么以data block为起始地址,块0到块k-1存放了文件，块k到块k+m-1存放了目录。
+在本实验中一共含20个inode,所以第1个inode的文件索引为0,inode目录索引为第20个inode的文件索引+1
+
+
+3. 算法实现上整体采用递归思想，为了完成文件块与目录块的隔离，我们需要实现计算出文件一共有多少个块,借用inode->size属性，取 inode->size/block_size的向上取整即为其占用块的大小，我们先扫描一遍文件，计算出块的属性k，然后设置双指针：
+int  data_pointer = 0;
+int inode_pointer = k;
+当直接处理数据块时，从文件中读取，然后放置到 data_block[data_pointer++],当处理1,2,3级目录时，将目录块的内容重写，然后放置到 data_block[inode_pointer++],如果程序正常运行，那么最终data_pointer与inode_pointer是可以构成连续的数列的。
+
+
+4. 关于递归，我们撰写了4个函数，分别用于处理0到3级目录的情况
+write_from_triply_indirect_blocks ----> 将3级目录块重放到inode_pointer
+            |
+            |inode_pointer++
+            |向下递归
+            |
+write_from_doubly_indirect_blocks ----> 将2级目录块重放到inode_pointer
+            |
+            |inode_pointer++
+            |向下递归
+            |
+write_from_indirect_blocks        ----> 将1级目录块重放到inode_pointer
+            |
+            |inode_pointer++
+            |向下递归
+            |
+write_from_data_blocks            ----> 读取文件并重放到 data_pointer
+            |data_pointer++
+            |return ;
+            
+            
+5. 受限于文件格式,该文件仅对算法与流程做概述，若想查看更完整的说明，请参照源代码中的注释与LabReport.pdf文件
+
